@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import CardSlider
 
-class ViewController: UIViewController {
+class NewsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

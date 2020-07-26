@@ -24,7 +24,7 @@ class CardSliderCell: UICollectionViewCell, ParallaxCardCell {
 	
 	open override func awakeFromNib() {
 		super.awakeFromNib()
-		imageView.contentMode = .scaleAspectFill
+		imageView.contentMode = .scaleAspectFit
 		contentView.addSubview(imageView)
 		shadeView.backgroundColor = .white
 		contentView.addSubview(shadeView)

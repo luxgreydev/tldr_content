@@ -6,4 +6,13 @@
 //  Copyright © 2020 Lux Grey. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import CardSlider
+
+struct ItemModel: CardSliderItem {
+    var image: UIImage
+    var rating: Int?
+    var title: String
+    var subtitle: String?
+    var description: String?
+}

@@ -15,11 +15,12 @@ protocol NewsFeedDelegate {
 class NewsFeed {
     
     var delegate: NewsFeedDelegate?
+    var extras = Extras()
     
     func news() {
         let headers = [
             "x-rapidapi-host": "newscafapi.p.rapidapi.com",
-            "x-rapidapi-key": "cddb6af78fmshd194980a96ca25fp15090djsn909f7d10bcb8"
+            "x-rapidapi-key": extras.rapidAPI
         ]
         let request = NSMutableURLRequest(url: NSURL(string: "https://newscafapi.p.rapidapi.com/apirapid/news/technology/?q=news")! as URL,
                                           cachePolicy: .useProtocolCachePolicy,

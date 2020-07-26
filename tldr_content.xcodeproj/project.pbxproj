@@ -17,6 +17,7 @@
 		E1FDA5E324CC6066002155CD /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDA5E224CC6066002155CD /* ItemModel.swift */; };
 		E1FDA5E724CC6EA3002155CD /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDA5E624CC6EA3002155CD /* NewsFeed.swift */; };
 		E1FDA5E924CC72B4002155CD /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDA5E824CC72B4002155CD /* NewsData.swift */; };
+		E1FDA5EF24CD4E93002155CD /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1FDA5EE24CD4E93002155CD /* Extras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E1FDA5E224CC6066002155CD /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 		E1FDA5E624CC6EA3002155CD /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
 		E1FDA5E824CC72B4002155CD /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		E1FDA5EE24CD4E93002155CD /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
 		F73F59A35A879977218FBAF9 /* Pods-tldr_content.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tldr_content.debug.xcconfig"; path = "Target Support Files/Pods-tldr_content/Pods-tldr_content.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +96,7 @@
 				E1FDA5D524CC5B8C002155CD /* Assets.xcassets */,
 				E1FDA5D724CC5B8C002155CD /* LaunchScreen.storyboard */,
 				E1FDA5DA24CC5B8C002155CD /* Info.plist */,
+				E1FDA5EE24CD4E93002155CD /* Extras.swift */,
 			);
 			path = tldr_content;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			files = (
 				E1FDA5E724CC6EA3002155CD /* NewsFeed.swift in Sources */,
 				E1FDA5D124CC5B87002155CD /* NewsViewController.swift in Sources */,
+				E1FDA5EF24CD4E93002155CD /* Extras.swift in Sources */,
 				E1FDA5CD24CC5B87002155CD /* AppDelegate.swift in Sources */,
 				E1FDA5E324CC6066002155CD /* ItemModel.swift in Sources */,
 				E1FDA5CF24CC5B87002155CD /* SceneDelegate.swift in Sources */,

@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct NewsData: Codable {
+    let img: String
+    let title: String
+    let content: String
+}

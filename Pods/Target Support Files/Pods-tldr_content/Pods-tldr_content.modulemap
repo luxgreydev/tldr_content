@@ -1,0 +1,6 @@
+framework module Pods_tldr_content {
+  umbrella header "Pods-tldr_content-umbrella.h"
+
+  export *
+  module * { export * }
+}

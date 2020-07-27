@@ -3,8 +3,8 @@ import UIKit
 
 class CardSliderCell: UICollectionViewCell, ParallaxCardCell {
 	open var cornerRadius: CGFloat = 10 { didSet { update() }}
-	open var shadowOpacity: CGFloat = 0.3 { didSet { update() }}
-	open var shadowColor: UIColor = .black { didSet { update() }}
+	open var shadowOpacity: CGFloat = 0.0 { didSet { update() }}
+	open var shadowColor: UIColor = .clear { didSet { update() }}
 	open var shadowRadius: CGFloat = 20 { didSet { update() }}
 	open var shadowOffset: CGSize = CGSize(width: 0, height: 20) { didSet { update() }}
 	
@@ -26,9 +26,9 @@ class CardSliderCell: UICollectionViewCell, ParallaxCardCell {
 		super.awakeFromNib()
 		imageView.contentMode = .scaleAspectFit
 		contentView.addSubview(imageView)
-		shadeView.backgroundColor = .white
+		shadeView.backgroundColor = .clear
 		contentView.addSubview(shadeView)
-		highlightView.backgroundColor = .black
+		highlightView.backgroundColor = .clear
 		highlightView.alpha = 0
 		contentView.addSubview(highlightView)
 	}

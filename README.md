@@ -6,4 +6,10 @@ During this particular project, design was secondary to creating a functional en
 
 ## Demo
 
-<img src="https://luxgrey.com/wp-content/uploads/2020/07/tldr_content-2.gif">
+<img src="https://github.com/luxgreydev/tldr_content/blob/master/tldr_content/Demo/tldr_content.gif">
+
+## Acknowledgement
+
+<p>~NewscafAPI</p>
+<p>~RapidAPI</p>
+<p>~Ramotion</p>

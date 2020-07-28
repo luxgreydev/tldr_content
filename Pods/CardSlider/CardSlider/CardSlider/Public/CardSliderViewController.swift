@@ -174,6 +174,7 @@ open class CardSliderViewController: UIViewController, UIScrollViewDelegate {
 		descriptionLabel.text = dataSource.item(for: dataSource.numberOfItems() - indexPath.item - 1).description
 		scrollStack.insertArrangedSubview(cardTitleSnapshot, at: 1)
 		scrollView.isHidden = false
+        openCardCell?.isHidden = true
 		
 		let cellFrame = view.convert(cell.frame, from: cell.superview!)
 		cardSnapshot.frame = cellFrame

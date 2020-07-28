@@ -4,7 +4,7 @@ This project brings in up-to-date news content realted to the tech industry, via
 
 ## Demo
 
-<img src="https://github.com/luxgreydev/tldr_content/blob/master/tldr_content/Demo/tldr_content_CS3.gif">
+<img src="https://github.com/luxgreydev/tldr_content/blob/master/tldr_content/Demo/tldr_content_CS3..gif">
 
 ## Acknowledgement
 

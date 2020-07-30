@@ -1,6 +1,6 @@
 # tl;dr: Tech Content
 
-This project brings in up-to-date news content realted to the tech industry, via the NewscafAPI and renders it into a custom version of the CardSlider Cocoapod. This allows you to swipe through images and titles from the 15 most current tech articles on the internet. A simple tap on the image will open up the article content for for you to peruse. It was developed and customized using Swift5, Xcode11, Cocoapod, and RapidAPI.
+This project brings in up-to-date news content realted to the tech industry, via the NewscafAPI and renders it into a custom version of the CardSlider Cocoapod. This allows you to swipe through images and titles from the 10 most current tech articles on the internet. A simple tap on the image will open up the article content for for you to peruse. It was developed and customized using Swift5, Xcode11, Cocoapod, and RapidAPI.
 
 ## Demo
 
